@@ -20,11 +20,7 @@ form.addEventListener('submit', (e) => {
   authorValue.value = '';
 });
 
-booksUL.addEventListener('click', (e) => ( 
-
-  e.target.className === 'delete' ? newBook.deleteBook(e.target.parentNode.className) : show() 
-  
-));
+booksUL.addEventListener('click', (e) => (e.target.className === 'delete' ? newBook.deleteBook(e.target.parentNode.className) : show()));
 
 const list = document.querySelector('.asesomeBooks');
 const addForm = document.querySelector('.addForm');
