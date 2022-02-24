@@ -198,3 +198,8 @@ ul {
   padding: 40px 0 0 10%;
   list-style: disc;
 }
+
+.date {
+  width: 100%;
+  text-align: center;
+}
