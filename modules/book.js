@@ -1,6 +1,6 @@
-import { show } from './show.js';
+import show from './show.js';
 
-export class Book {
+class Book {
   constructor() {
     return this;
   }
@@ -34,3 +34,4 @@ export class Book {
     show();
   }
 }
+export default Book;
