@@ -1,10 +1,10 @@
-import {Book} from "./modules/book.js";
-import {show} from './modules/show.js';
+import { Book } from './modules/book.js';
+import { show } from './modules/show.js';
 
 const titleValue = document.getElementById('title');
 const authorValue = document.getElementById('author');
-export const booksUL = document.querySelector('.book-list');
-let bookArray = [];
+const booksUL = document.querySelector('.book-list');
+const bookArray = [];
 const form = document.querySelector('#abbBookForm');
 
 if (localStorage.getItem('books') != null) {

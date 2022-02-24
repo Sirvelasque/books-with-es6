@@ -1,5 +1,6 @@
-import {booksUL} from "../index.js";
-export let show = () => {
+const booksUL = document.querySelector('.book-list');
+
+export const show = () => {
   let bookId = 0;
   let Current = localStorage.getItem('books');
   Current = JSON.parse(Current);
