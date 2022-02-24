@@ -34,4 +34,5 @@ class Book {
     show();
   }
 }
+
 export default Book;
