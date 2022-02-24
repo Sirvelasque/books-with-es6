@@ -1,4 +1,4 @@
-import {booksUL} from "../index.js"
+import {booksUL} from "../index.js";
 export let show = () => {
   let bookId = 0;
   let Current = localStorage.getItem('books');
