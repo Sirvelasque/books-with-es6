@@ -1,6 +1,6 @@
 import Book from './modules/book.js';
 import show from './modules/show.js';
-import showDate from './modules/date.js';
+import showdate from './modules/date.js';
 
 const titleValue = document.getElementById('title');
 const authorValue = document.getElementById('author');
@@ -66,4 +66,4 @@ spans.forEach((e) => {
   });
 });
 
-showDate();
+showdate();

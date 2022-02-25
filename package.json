@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/Sirvelasque/books-with-es6/issues"
   },
-  "homepage": "http://github.com/Sirvelasque/books-with-es6#readme",
+  "homepage": "https://github.com/Sirvelasque/books-with-es6#readme",
   "dependencies": {
     "full-icu": "^1.4.0",
     "luxon": "^2.3.1"
