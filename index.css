@@ -101,7 +101,7 @@ ul {
   border-radius: 3px;
 }
 
-.hero h1 {
+.hero h2 {
   font-size: 3rem;
   padding-bottom: 2rem;
   color: rgb(19, 160, 129);
@@ -190,7 +190,7 @@ ul {
   align-self: center;
 }
 
-.contact h3 {
+.contact h1 {
   font-size: 1.6rem;
 }
 
