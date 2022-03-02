@@ -38,7 +38,6 @@
     "aws-sign2": "^0.7.0",
     "aws4": "^1.11.0",
     "axe-core": "^4.3.5",
-    "babel-eslint": "^10.1.0",
     "bail": "^1.0.5",
     "balanced-match": "^1.0.2",
     "base64-js": "^1.5.1",
@@ -615,5 +614,8 @@
   "bugs": {
     "url": "https://github.com/Sirvelasque/books-with-es6/issues"
   },
-  "homepage": "https://github.com/Sirvelasque/books-with-es6#readme"
+  "homepage": "https://github.com/Sirvelasque/books-with-es6#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0"
+  }
 }
